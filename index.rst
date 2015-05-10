@@ -10,6 +10,7 @@ Contents:
    helloworld
    screenoutput
    variables
+   constants
 
 Indices and tables
 ==================
