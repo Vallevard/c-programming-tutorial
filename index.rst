@@ -6,7 +6,10 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   introduction
    helloworld
+   screenoutput
+   variables
 
 Indices and tables
 ==================
