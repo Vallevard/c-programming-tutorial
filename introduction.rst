@@ -2,6 +2,13 @@ Introduction
 ============
 C is a small, portable language which is commonly used on a range of devices, from servers to embedded devices. The language also sits in the middle-level, with low level languages such as Assembly being difficult to learn and read, and high level languages such as Python or Java being slower to some extent.
 
+============
+The Compiler
+============
+The compiler is the important piece of software which converts the C code we write into a language the computer can understand and execute, which is binary code.
+
+There are a number of compilers; some are free software while others are proprietary and they can offer a range of features including performance increases or mre stable binaries. Two of the most popular free software compilers are GCC and Clang.
+
 =========
 Standards
 =========

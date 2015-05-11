@@ -11,6 +11,8 @@ Contents:
    screenoutput
    variables
    constants
+   strings
+   array
 
 Indices and tables
 ==================
