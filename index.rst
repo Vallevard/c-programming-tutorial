@@ -13,6 +13,8 @@ Contents:
    constants
    strings
    array
+   enums
+   coercion
 
 Indices and tables
 ==================
