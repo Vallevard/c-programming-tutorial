@@ -13,6 +13,7 @@ Contents:
    constants
    strings
    array
+   loops
    enums
    coercion
 
