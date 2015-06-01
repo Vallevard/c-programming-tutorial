@@ -30,9 +30,9 @@ A multi-dimensional array is also possible, which provides for data to be stored
 
 Further dimensions can also be defined by adding more sizes to the end of the array. Again, the values are accessed by specifying the location of the value in relation to the location it is stored.
 
-=======
+-------
 Example
-=======
+-------
 Showcasing an array storing five different names in each location of the structure.
 
 .. literalinclude:: _examples/array.c

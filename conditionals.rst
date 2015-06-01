@@ -56,6 +56,7 @@ Finally, it is entirely possible to compare multiple values within a comparison.
 -------
 Example
 -------
+Match the variable and run code on matching if block.
 
 .. literalinclude:: _examples/ifstatement.c
 
@@ -71,6 +72,7 @@ Each case block requires a break statement to be used, otherwise the computer wi
 -------
 Example
 -------
+Run code in block matching variable value.
 
 .. literalinclude:: _examples/switchcase.c
 

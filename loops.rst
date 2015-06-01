@@ -20,9 +20,9 @@ A While loop checks for a condition, and if it does not meet the criteria, the l
 
 Download: :download:`While Loop <_examples/whileloop.c>`
 
-==============
+=============
 Do-While loop
-==============
+=============
 A Do-While loop performs the comparison at the end of the loop. This means that the code in the loop is always executed at least once.
 
 .. literalinclude:: _examples/dowhileloop.c
