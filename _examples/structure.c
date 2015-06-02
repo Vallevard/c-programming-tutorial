@@ -1,14 +1,17 @@
 #include <stdio.h>
 
-struct hits
+struct employees
 {
     char *name;
     char *address;
     char *postcode;
-} andrew, george;
+} employee;
 
 int main()
 {
+    struct employees andrew;
+    struct employees george;
+
     andrew.name = "Andrew Steele";
     andrew.address = "157 Long Lane";
     andrew.postcode = "MT4 9FD";
@@ -18,7 +21,7 @@ int main()
     george.postcode = "FF4 12JH";
 
     printf("%s\n", andrew.name);
-    printf("%s\n", george.name);
+    printf("%s\n", george.address);
 
     return 0;
 }

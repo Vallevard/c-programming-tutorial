@@ -13,6 +13,7 @@ Contents:
    constants
    strings
    array
+   structures
    conditionals
    operators
    loops
