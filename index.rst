@@ -19,6 +19,8 @@ Contents:
    loops
    enums
    coercion
+   functions
+   compilation
 
 Indices and tables
 ==================
