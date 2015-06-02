@@ -104,6 +104,43 @@ The static variable is declared using the ``static`` statement prior to the vari
 
   static int age;
 
+========
+Keywords
+========
+C has a number of keywords reserved for use with the language. This prevents them being redefined.
+
+* auto
+* break
+* case
+* char
+* continue
+* default
+* do
+* double
+* else
+* enum
+* extern
+* float
+* for
+* goto
+* if
+* int
+* long
+* register
+* return
+* short
+* sizeof
+* static
+* struct
+* switch
+* typedef
+* union
+* unsigned
+* void
+* while
+
+Variable names must begin with a letter or underscore, and can also contain numbers.
+
 =======
 Example
 =======

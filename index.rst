@@ -14,6 +14,7 @@ Contents:
    strings
    array
    conditionals
+   operators
    loops
    enums
    coercion
