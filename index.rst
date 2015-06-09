@@ -12,8 +12,9 @@ Contents:
    variables
    constants
    strings
-   array
+   arrays
    structures
+   unions
    conditionals
    operators
    loops
