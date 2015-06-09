@@ -14,15 +14,6 @@ An alternative method of creating the array without a size limit.
 
   char *name = "David Smith"
 
--------
-Example
--------
-An example of printing the contents of an array.
-
-.. literalinclude:: _examples/string.c
-
-Download: :download:`Strings <_examples/strings.c>`
-
 ===============
 String Handling
 ===============
@@ -42,3 +33,12 @@ The module includes the following functionality:
 * ``strupr(s)`` - covert supplied string to uppercase.
 * ``strlwr(s)`` - convert supplied string to lowercase.
 * ``strtok(s, delimiter)`` - break the string into toeks separated by the specified delimiter.
+
+-------
+Example
+-------
+An example of printing the contents of an array.
+
+.. literalinclude:: _examples/string.c
+
+Download: :download:`Strings <_examples/strings.c>`

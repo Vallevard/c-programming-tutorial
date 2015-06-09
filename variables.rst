@@ -89,7 +89,7 @@ The latest C99 standard adds support for Boolean (true/false) variables, however
 ===============
 Local vs Global
 ===============
-When a variable is created within a :doc:`function`, the variable can only be called from there. Any attempt to use it outside of the function, such as in another function, will throw up an error. This is a local variable.
+When a variable is created within a :doc:`functions`, the variable can only be called from there. Any attempt to use it outside of the function, such as in another function, will throw up an error. This is a local variable.
 
 Global variables are defined outside of a function, and can be accessed throughout the program. Multiple functions for example are able to call and modify the value of the variable.
 
@@ -141,9 +141,9 @@ C has a number of keywords reserved for use with the language. This prevents the
 
 Variable names must begin with a letter or underscore, and can also contain numbers.
 
-=======
+-------
 Example
-=======
+-------
 The variables example shows the use of global and local variables.
 
 .. literalinclude:: _examples/variables.c

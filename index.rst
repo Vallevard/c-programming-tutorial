@@ -20,7 +20,19 @@ Contents:
    enums
    coercion
    functions
+   pointers
+   preprocessor
+   memorymanagement
    compilation
+
+Modules:
+
+.. toctree::
+   :maxdepth: 2
+
+   stdlib
+   time
+   math
 
 Indices and tables
 ==================
