@@ -27,6 +27,11 @@ Contents:
    memorymanagement
    compilation
 
+Extras:
+   :maxdepth: 2
+
+   temporaryfiles
+
 Modules:
 
 .. toctree::
