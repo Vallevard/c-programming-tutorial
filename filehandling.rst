@@ -29,10 +29,28 @@ When writing to the text file, there are a number of modes. The file can be open
 To handle binary files, the mode for binary files needs to be specified. The mode should be set to ``"wb"`` for simply writing, or ``"w+b"`` for write-read. Alternatively, to write and append use ``"ab"`` and to read and append specify ``"a+b"``.
 
 ============
-File Closure
+File Closing
 ============
 Closing a file handle once it is no longer required to be opened is important to prevent data loss.
 
 ::
 
   fclose(fp);
+
+========
+Renaming
+========
+Files can be renamed by specifying the current filename, and the filename to change it to. The function return value is set to ``0`` if the file is successfully renamed.
+
+::
+
+  value = rename(old, new);
+
+========
+Deletion
+========
+Deletion of files can be made by specifying the filename of the file to remove. When the file is deleted, the function returns ``0``.
+
+::
+
+  value = remove(filename);
