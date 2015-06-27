@@ -39,6 +39,6 @@ Example
 -------
 An example of printing the contents of an array.
 
-.. literalinclude:: _examples/string.c
+.. literalinclude:: _examples/strings.c
 
 Download: :download:`Strings <_examples/strings.c>`
