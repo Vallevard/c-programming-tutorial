@@ -104,6 +104,15 @@ The static variable is declared using the ``static`` statement prior to the vari
 
   static int age;
 
+-------
+Example
+-------
+An example of variable and static variable differences.
+
+.. literalinclude:: _examples/staticvariables.c
+
+Download: :download:`Static Variables <_examples/staticvariables.c>`
+
 ========
 Keywords
 ========
