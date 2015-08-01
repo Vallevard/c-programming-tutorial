@@ -7,4 +7,4 @@ This tutorial aims to follow the latest C standard where possible.
 
 For contributions, please see:
 
-  https://github.com/steeleyuk/c-programming-tutorial
+  https://github.com/Programmica/c-programming-tutorial
