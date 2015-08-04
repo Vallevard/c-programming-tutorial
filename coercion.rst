@@ -31,3 +31,12 @@ A common example of casting to ensure the output is when dividing two numbers.
   float answer;
 
   answer = (float)a / (float)b;
+
+-------
+Example
+-------
+An example of coercion of a float into an integer.
+
+.. literalinclude:: _examples/coercion.c
+
+Download: :download:`Coercion <_examples/coercion.c>`
