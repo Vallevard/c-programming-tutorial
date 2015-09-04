@@ -31,7 +31,7 @@ To handle binary files, the mode for binary files needs to be specified. The mod
 ============
 File Closing
 ============
-Closing a file handle once it is no longer required to be opened is important to prevent data loss.
+Closing a file handle once it is no longer required to be opened is important to prevent data loss. Care should be taken to ensure that attempts to read from the file are not made again once it has been closed.
 
 ::
 
@@ -54,3 +54,7 @@ Deletion of files can be made by specifying the filename of the file to remove. 
 ::
 
   value = remove(filename);
+
+===========
+Permissions
+===========

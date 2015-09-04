@@ -1,6 +1,6 @@
 Loops
 =====
-Loops are used extensively in programs to repeat actions. There are a number of loop types which are used in different ways.
+Loops are used extensively in programs to repeat actions. The looping types can be based on several methods such as a counter counting until a value is reached, or iterating over the contents of a file.
 
 ========
 For loop
@@ -23,7 +23,7 @@ Download: :download:`While Loop <_examples/whileloop.c>`
 =============
 Do-While loop
 =============
-A Do-While loop performs the comparison at the end of the loop. This means that the code in the loop is always executed at least once.
+A Do-While loop performs the comparison at the end of the loop. This means that the code in the loop is always executed at least once, with subsequent loop operations only being performed if the criteria is met.
 
 .. literalinclude:: _examples/dowhileloop.c
 

@@ -78,9 +78,9 @@ Boolean
 =======
 The latest C99 standard adds support for Boolean (true/false) variables, however attempts to compile a program with the Boolean type on a compiler using an older standard will result in errors.
 
-::
+The new type is defined as ``_Bool``. however including the ``<stdbool.h>`` module aliases the ``_Bool`` type to ``bool``.
 
-  bool operational = true;
+.. literalinclude:: _examples/boolean.c
 
 .. note ::
 

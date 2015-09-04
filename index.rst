@@ -28,6 +28,8 @@ Contents:
    compilation
 
 Extras:
+
+.. toctree::
    :maxdepth: 2
 
    temporaryfiles
@@ -40,6 +42,7 @@ Modules:
    stdlib
    time
    math
+   unistd
 
 Indices and tables
 ==================
@@ -47,4 +50,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
