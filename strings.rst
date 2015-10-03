@@ -34,6 +34,41 @@ The module includes the following functionality:
 * ``strlwr(s)`` - convert supplied string to lowercase.
 * ``strtok(s, delimiter)`` - break the string into toeks separated by the specified delimiter.
 
+==================
+Converting Strings
+==================
+Values can be converted to and from strings to other types. This is done using the functions:
+
+* ``atoi(s)`` - convert string to integer.
+* ``atof(s)`` - convert string to float.
+* ``strtol(s)`` - convert string to long.
+
+------------------------
+Setting Upper/Lower Case
+------------------------
+Converting characters to and from upper and lower case is possible using the ``tolower()`` and ``toupper()`` functions. These work at character level with::
+
+  char charlower = tolower('J');
+  char charupper = toupper('f');
+
+To iterate through an entire string, each character must be individually read, converted, and then stored back in the string array.
+
+Download: :download:`ToUpper <_examples/toupper.c>`
+Download: :download:`ToLower <_examples/tolower.c>`
+
+===============
+Other Functions
+===============
+The length of a string can be obtained using the ``strlen`` function::
+
+  int length = strlen("Hello, World");
+
+Two strings can also be joined together (concatenated) via::
+
+  strcat("Andrew", " the Great");
+
+Both strings can either be supplied directly, or via a variable of string type.
+
 -------
 Example
 -------
