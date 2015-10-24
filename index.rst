@@ -23,6 +23,7 @@ Contents:
    functions
    pointers
    preprocessor
+   headers
    filehandling
    memorymanagement
    compilation
