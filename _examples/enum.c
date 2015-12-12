@@ -2,14 +2,18 @@
 
 int main()
 {
-    enum week {monday = 0, tueday, wednesday, thursday, friday};
-    
-    enum week day = monday;
-    
-    if (day == monday)
+    enum week {monday, tueday, wednesday, thursday, friday, saturday, sunday};
+
+    enum week day = 7;
+
+    if (day == 0)
     {
         printf("Happy Monday\n");
     }
-    
+    else if (day == 6 || 7)
+    {
+        printf("Enjoy the weekend\n");
+    }
+
     return 0;
 }

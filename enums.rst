@@ -13,3 +13,26 @@ The first item in a standard enum is accessed using ``0``, however this can be o
 ::
 
   enum months {January = 1, February, March} calendar;
+
+The enum is then accessed by defining the access name.
+
+::
+
+  enum months month = January;
+
+If using the name to access the enum, the case must match.
+
+An index value can also be specified.
+
+::
+
+  enum months month = 0;
+
+-------
+Example
+-------
+The use of enumerated types are shown by accessing the week enum using the index value.
+
+.. literalinclude:: _examples/enum.c
+
+Download: :download:`Enumerated Types <_examples/enum.c>`
