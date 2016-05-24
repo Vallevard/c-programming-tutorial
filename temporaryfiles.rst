@@ -8,11 +8,17 @@ Creation of a temporary file is done with the filename automatically generated b
 
   char template[] = "/tmp/testXXXXXX";
 
-The ``mkstemp`` function creates the file descriptor if the file is successfully created, or returns ``-1`` if the file could not be opened.
+The ``mkstemp`` function creates the file and returns a descriptor if the file is successfully created, or returns ``-1`` if the file could not be opened.
 
 ::
 
   fd = mkstemp(template);
+
+After use, the created file should be discarded with the unlink function which takes the file path as an argument.
+
+::
+
+  unlink(template);
 
 -------
 Example

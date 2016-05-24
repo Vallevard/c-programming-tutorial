@@ -6,7 +6,7 @@ An array is defined in a similar way to a variable.
 
 ::
 
-  int lotto[6];
+  int lottery[6];
 
 The array has a data type and a name. It also has a length which indicates the size of the array.
 
@@ -14,13 +14,19 @@ Values can also be assigned to the array at the type of construction.
 
 ::
 
-  int lotto[6] = 5, 42, 28, 19, 6, 23;
+  int lottery[6] = 5, 42, 28, 19, 6, 23;
 
 Individual values held within the array can be accessed using the index number, with the first item accessed via ``0``.
 
 ::
 
-  choice = lotto[3];
+  choice = lottery[3];
+
+Changes to a particular slot in the array can also be made.
+
+::
+
+  lottery[3] = value;
 
 A multi-dimensional array is also possible, which provides for data to be stored in different ways.
 

@@ -13,6 +13,11 @@ A constant can be defined in two ways.
 
   The above statements are both the same, however it is best to choose one method and stick to it. On the other hand, if you are contributing code to a project, you should use the existing method to ensure consistency.
 
+-------
+Example
+-------
 Reading from a constant is similar to the way a variable is read from.
 
 .. literalinclude:: _examples/constant.c
+
+Download: :download:`Constant <_examples/constant.c>`

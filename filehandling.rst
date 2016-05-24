@@ -58,3 +58,10 @@ Deletion of files can be made by specifying the filename of the file to remove. 
 ===========
 Permissions
 ===========
+Permissions should be defined on the file depending on the requirements. In some cases, a file may be created read-only to prevent further changes, or alternatively, it may be made executable so it can be run if required.
+
+::
+
+  chmod(file, mode);
+
+The *file* specifies the file or directory location of the permissions to be changed. The *mode* sets the octal permission value to set on the file.
